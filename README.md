@@ -56,12 +56,15 @@ pip install tensorflow opencv-python pandas matplotlib
 ### Run the GUI Application
 ```bash
 python gui.py
+
 ```
 
 ## Project Screenshots
 | Training Accuracy & Loss | GUI Interface |
 |--------------------------|---------------|
-|![Figure_1](https://github.com/user-attachments/assets/0d9c12ea-4448-4cee-84ef-5501dc552682)
+|![Figure_1](https://github.com/user-attachments/assets/0d9c12ea-4448-4cee-84ef-5501dc552682) | ![GUI Interface](https://github.com/user-attachments/assets/0598ab75-f10a-4e58-97e8-71399d7a3b4d)
+
+
 
 
 ## Results
