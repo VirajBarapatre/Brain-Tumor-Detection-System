@@ -1,0 +1,30 @@
+Create a Kaggle Account: If you don't have one, sign up at Kaggle.
+
+Obtain Kaggle API Credentials:
+Navigate to your Kaggle account settings.
+Scroll to the "API" section and click "Create New API Token".
+This will download a kaggle.json file containing your API credentials.
+
+Set Up Kaggle API on Your System:
+Place the kaggle.json file in the appropriate directory:
+Linux/Mac: ~/.kaggle/
+Windows: C:\Users\<YourUsername>\.kaggle\
+
+Ensure the directory has the correct permissions:
+Linux/Mac: chmod 600 ~/.kaggle/kaggle.json
+
+Install Kaggle Python Package:
+If not already installed, run:
+pip install kaggle
+
+Download the Dataset:
+Open a terminal or command prompt.
+Navigate to your project directory:
+cd /path/to/Brain_Tumor_Detection_System/dataset/
+
+Use the Kaggle API to download the dataset:
+kaggle datasets download -d masoudnickparvar/brain-tumor-mri-dataset
+
+Extract the downloaded ZIP file:
+unzip brain-tumor-mri-dataset.zip
+Note: Ensure you have sufficient storage space, as datasets can be large.
